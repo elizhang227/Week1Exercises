@@ -69,28 +69,81 @@ while count < rows:
     count += 1
 """
 
-# width = int(input("Width? "))
-# height = int(input("Height? "))
-# i = "*"
-# gap = " "
-# count = 1
+"""
+width = int(input("Width? "))
+height = int(input("Height? "))
+i = "*"
+gap = " "
+x = 1
 
-# while count == 1 or count == height:
-#     print(i * width)
-#     count += 1
-# else:
-#     print(i + (gap * (width - 2)) + i)
-#     count += 1
+while x <= height:
+    if x == 1 or x == height:
+        print(i * width)
+    else:
+        print(i + (gap * (width - 2))+ i)
+    x += 1
+"""
 
-# space = 5
-# stars = 1
-# empty_spaces = " "
+"""
+# Print Triangle
+i = "*"
+gap = " "
+x = 0
+stars = 1
+spaces = 3
 
-# while space >= 1:
-#     while stars <= space:
-#         print("*", (empty_spaces * space))
-#         pace += 1
-#         stars -= 1
+while x < 4:
+    if x == 0:
+        print((gap * spaces) + i + (gap * spaces))
+    else:
+        print((gap * spaces) + (i * stars) + (gap * spaces))
+    spaces -= 1
+    x += 1
+    stars += 2
+"""
+
+"""
+# Print Triangle II
+i = "*"
+gap = " "
+x = 0
+asked_height = int(input("Enter a height: "))
+stars = 1
+spaces = (asked_height - 1)
+
+while x < asked_height:
+    if x == 0:
+        print((gap * spaces) + i + (gap * spaces))
+    else:
+        print((gap * spaces) + (i * stars) + (gap * spaces))
+    spaces -= 1
+    x += 1
+    stars += 2
+"""
+
+a = 1
+b = 1
+
+
+while True:
+    if b <= 10:
+        total = a * b
+        print('%s x %s = %s' % (a, b, total))
+        b += 1
+    else:
+        b = 1
+        a += 1
+    
+
+
+# while True:
+#     if a == 1 and b <= 10:
+#         total = a * b
+#         print('%s x %s = %s' % (a, b, total))
+#     b += 1
+#     elif a == 2 and b <= 10:
+#         total = a * b
+#         print('%s x %s = %s' % (a, b, total))  
 
 """
 day = int(input('Day (0-6)? '))
