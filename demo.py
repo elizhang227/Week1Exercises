@@ -69,20 +69,20 @@ while count < rows:
     count += 1
 """
 
-"""
-width = int(input("Width? "))
-height = int(input("Height? "))
-i = "*"
-gap = " "
-x = 1
 
-while x <= height:
-    if x == 1 or x == height:
-        print(i * width)
-    else:
-        print(i + (gap * (width - 2))+ i)
-    x += 1
-"""
+# width = int(input("Width? "))
+# height = int(input("Height? "))
+# i = "*"
+# gap = " "
+# x = 1
+
+# while x <= height:
+#     if x == 1 or x == height:
+#         print(i * width)
+#     else:
+#         print(i + (gap * (width - 2))+ i)
+#     x += 1
+
 
 """
 # Print Triangle
@@ -102,8 +102,9 @@ while x < 4:
     stars += 2
 """
 
-"""
+
 # Print Triangle II
+"""
 i = "*"
 gap = " "
 x = 0
@@ -121,18 +122,18 @@ while x < asked_height:
     stars += 2
 """
 
-a = 1
-b = 1
+# a = 1
+# b = 1
 
 
-while True:
-    if b <= 10:
-        total = a * b
-        print('%s x %s = %s' % (a, b, total))
-        b += 1
-    else:
-        b = 1
-        a += 1
+# while True:
+#     if b <= 10:
+#         total = a * b
+#         print('%s x %s = %s' % (a, b, total))
+#         b += 1
+#     else:
+#         b = 1
+#         a += 1
     
 
 
@@ -202,7 +203,7 @@ print('Tip amount: %.2f' % tip)
 print('Total amount: %.2f' % (tip + bill))
 """
 
-"""
+
 bill = float(input("Total bill amount: "))
 service = input("Service? (good/fair/bad) ")
 split = int(input("Split how many ways? "))
@@ -218,4 +219,3 @@ while True:
 print('Tip amount: %.2f' % tip)
 print('Total amount: %.2f' % (tip + bill))
 print('Amount per person: %.2f' % ((tip + bill) / split))
-"""
