@@ -1,6 +1,3 @@
-# firstpython
+# Python Exercises for Week 1
 
-This is a readme for first python
-# whileloopcode
-
-minor testing
+## test
