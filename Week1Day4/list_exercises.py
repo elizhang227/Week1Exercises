@@ -123,8 +123,8 @@ for r in result:
 """
 
 # Matrix Addition 2
-
-
+for i in range(len(X)): #iterate through rows    
+        if 
 # De-dup
 """
 list = [2, 4, 5, 4, 2, 5, 3, 8, 7]
