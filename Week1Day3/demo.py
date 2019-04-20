@@ -203,19 +203,35 @@ print('Tip amount: %.2f' % tip)
 print('Total amount: %.2f' % (tip + bill))
 """
 
+### Tip Calculator + Split Amount People ###
 
-bill = float(input("Total bill amount: "))
-service = input("Service? (good/fair/bad) ")
-split = int(input("Split how many ways? "))
+# bill = float(input("Total bill amount: "))
+# service = input("Service? (good/fair/bad) ")
+# split = int(input("Split how many ways? "))
 
-while True:
-    if service == "good":
-        tip = bill * .20
-    elif service == "fair":
-        tip = bill * .15
-    elif service == "bad":
-        tip = bill * .10
-    break
-print('Tip amount: %.2f' % tip)
-print('Total amount: %.2f' % (tip + bill))
-print('Amount per person: %.2f' % ((tip + bill) / split))
+# while True:
+#     if service == "good":
+#         tip = bill * .20
+#     elif service == "fair":
+#         tip = bill * .15
+#     elif service == "bad":
+#         tip = bill * .10
+#     break
+# print('Tip amount: %.2f' % tip)
+# print('Total amount: %.2f' % (tip + bill))
+# print('Amount per person: %.2f' % ((tip + bill) / split))
+
+### Print A Banner ###
+
+# sentence = input("Please enter a sentence: ")
+# i = "*"
+# gap = " "
+# width = len(sentence) + 4
+# x = 0
+
+# while x <= 2:
+#     if x == 0 or x == 2:
+#         print(i * width)
+#     else:
+#         print(i + gap + sentence + gap + i)
+#     x += 1
