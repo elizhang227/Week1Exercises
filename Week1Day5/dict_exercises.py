@@ -109,15 +109,17 @@
 
 # print(letter_counter(input('Please enter a word: ')))
 
-# Word Summary
+### Word Summary ###
 
-def word_counter(str):
-    dict = {}
-    for i in str:
-        if i in dict.keys():
-            dict[i] += 1
-        elif i not in dict.keys():
-            dict[i] = 1
-    return dict
+# sentence = input('Please enter a sentence: ')
+# split = sentence.split()
+# dict = {}
 
-print(word_counter(input('Please enter a word: ')))
+# for word in split:
+#     if word in dict:
+#         dict[word] += 1
+#     elif word not in dict:
+#         dict[word] = 1
+
+# print(dict)
+
